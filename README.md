@@ -39,7 +39,7 @@ For this project, Apple (AAPL) stock data was selected.
 1. Load the historical stock dataset.
 2. Select Apple (AAPL) stock data.
 3. Convert the date column into datetime format.
-4. Check and handle missing values.
+4. Check for missing values.
 5. Sort the data chronologically.
 6. Create a `previous_close` feature using the previous day's closing price.
 7. Split the data into training and testing sets.
@@ -74,10 +74,17 @@ The model achieved an R² score of 0.9766 on the test data for this project setu
 
 The repository includes a graph comparing the actual stock closing prices with the prices predicted by the Linear Regression model.
 
+![Actual vs Predicted Stock Prices](Actual%20VS%20Predicted.png)
+
 ## ▶️ How to Run
 
-1. Install Python.
-2. Install the required libraries:
+### 1. Install Python
+
+Make sure Python is installed on your system.
+
+### 2. Install Required Libraries
+
+Open the terminal and run:
 
 ```bash
 pip install pandas numpy matplotlib scikit-learn
