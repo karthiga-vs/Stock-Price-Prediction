@@ -72,9 +72,9 @@ The model achieved an R² score of 0.9766 on the test data for this project setu
 
 ## 📉 Actual vs Predicted Prices
 
-The repository includes a graph comparing the actual stock closing prices with the prices predicted by the Linear Regression model.
+The following graph compares the actual stock closing prices with the prices predicted by the Linear Regression model.
 
-![Actual vs Predicted Stock Prices](Actual%20VS%20Predicted.png)
+![Actual vs Predicted Stock Prices](actual_vs_predicted.png)
 
 ## ▶️ How to Run
 
